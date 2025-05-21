@@ -98,10 +98,17 @@
             ></textarea>
           </div>
           <div class="flex justify-end">
+              <select id="starRating" class="text-white text-[2rem]" required>
+              <option value="1">1 ★</option>
+              <option value="2">2 ★</option>
+              <option value="3">3 ★</option>
+              <option value="4">4 ★</option>
+              <option value="5">5 ★</option>
+            </select>
             <select id="reviewStatus" class="text-white text-[2rem]" required>
-              <option value="Recommended 5">Recommended 5 ★</option>
-              <option value="Not Recommended 1">Not Recommended 1 ★</option>
-              <option value="Mixed 3">Mixed 3 ★</option>
+              <option value="Recommended">Recommended</option>
+              <option value="Not Recommended">Not Recommended</option>
+              <option value="Mixed">Mixed</option>
             </select>
             
             <button id="submitReview" onclick="saveAnimeReview()">

@@ -40,7 +40,6 @@ function saveAnimeReview() {
   }
   const reviewTxt = document.getElementById("userReview").value;
   const reviewStatus = document.getElementById("reviewStatus").value;
-  const starRating = document.getElementById("starRating").value;
 
   const users = JSON.parse(localStorage.getItem("users")) || [];
   const currentUser = localStorage.getItem("currentUser");
@@ -58,7 +57,6 @@ function saveAnimeReview() {
   users[currUserIndex].userAnimeList[animeID] = {
     reviewTxt: reviewTxt,
     reviewStatus: reviewStatus,
-    starRating: starRating,
   };
 
   localStorage.setItem("users", JSON.stringify(users));
