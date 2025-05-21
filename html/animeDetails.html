@@ -89,7 +89,7 @@
         <p id="alert"></p>
       </div>
       <div id="reviewArea" class="w-[100%] flex-col">
-        <div id="addComment" class="w-[100%] h-auto">
+        <div id="addComment" class="w-[100%] h-auto">   
           <div>
             <textarea
               id="userReview"
@@ -99,10 +99,11 @@
           </div>
           <div class="flex justify-end">
             <select id="reviewStatus" class="text-white text-[2rem]" required>
-              <option value="Recommended">Recommended</option>
-              <option value="Not Recommended">Not Recommended</option>
-              <option value="Mixed">Mixed</option>
+              <option value="Recommended 5">Recommended 5 ★</option>
+              <option value="Not Recommended 1">Not Recommended 1 ★</option>
+              <option value="Mixed 3">Mixed 3 ★</option>
             </select>
+            
             <button id="submitReview" onclick="saveAnimeReview()">
               Submit
             </button>
