@@ -126,6 +126,15 @@ hr {
   font-weight: 500;
   padding: 0.5rem 4rem;
 }
+#starRating{
+  border: 2px solid #5744ad;
+  border-radius: 50px;
+  background-color: #5744ad;
+  margin: 2rem 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.5rem 4rem;
+}
 
 .usernameBG {
   text-decoration: underline;
